@@ -8,12 +8,12 @@ public class Juego {
 
 	
 
-	
 	private ArrayList<String> cartas;
 
 	public Juego() {
 		cartas = new ArrayList<String>();
 
+		llenarCartas();
 	}
 	
 	
@@ -81,4 +81,17 @@ public class Juego {
 	}
 
 	
-}
+
+
+
+ public void iniciarPartida() 
+ {
+	 
+	 
+ }
+ 
+ 
+ public void OrdenDeJuego() {
+	 
+ }
+ }
